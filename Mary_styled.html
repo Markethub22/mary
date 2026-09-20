@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivational Life Quotes</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            line-height: 1.8;
+            color: #25213a;
+            background:
+                radial-gradient(circle at top left, rgba(255, 183, 197, .35), transparent 35%),
+                radial-gradient(circle at bottom right, rgba(178, 214, 255, .35), transparent 35%),
+                #f7f5fb;
+            padding: 40px 20px;
+        }
+
+        .container {
+            width: min(950px, 100%);
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 7px 16px;
+            border-radius: 999px;
+            background: #fff;
+            color: #8b4d73;
+            font-size: .8rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            box-shadow: 0 8px 25px rgba(45, 35, 70, .08);
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            line-height: 1.15;
+            color: #35264f;
+            margin-bottom: 12px;
+        }
+
+        .intro {
+            max-width: 650px;
+            margin: auto;
+            color: #706b7d;
+            font-size: 1.05rem;
+        }
+
+        .quote-card {
+            background: rgba(255, 255, 255, .92);
+            border: 1px solid rgba(255, 255, 255, .9);
+            border-radius: 24px;
+            padding: 28px;
+            margin: 24px 0;
+            box-shadow: 0 18px 45px rgba(45, 35, 70, .10);
+            transition: transform .25s ease, box-shadow .25s ease;
+        }
+
+        .quote-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 55px rgba(45, 35, 70, .15);
+        }
+
+        .quote-card img {
+            display: block;
+            width: min(300px, 100%);
+            height: 300px;
+            object-fit: cover;
+            margin: 0 auto 24px;
+            border-radius: 18px;
+            box-shadow: 0 12px 30px rgba(45, 35, 70, .15);
+        }
+
+        .quote-card p {
+            font-size: 1rem;
+            color: #575265;
+            margin-top: 12px;
+        }
+
+        .quote-card p:first-of-type {
+            margin-top: 0;
+        }
+
+        .highlight {
+            border-left: 5px solid #b85c86;
+            padding-left: 20px;
+            font-weight: 600;
+            color: #3d304e !important;
+        }
+
+        .form-card {
+            background: linear-gradient(135deg, #35264f, #714d75);
+            color: white;
+            border-radius: 26px;
+            padding: 32px;
+            margin-top: 35px;
+            box-shadow: 0 20px 50px rgba(53, 38, 79, .25);
+        }
+
+        .form-card h2 {
+            font-size: 1.7rem;
+            margin-bottom: 8px;
+        }
+
+        .form-card .subtext {
+            color: #eee7f5;
+            margin-bottom: 22px;
+        }
+
+        form {
+            display: grid;
+            gap: 14px;
+        }
+
+        input {
+            width: 100%;
+            border: 0;
+            outline: none;
+            padding: 15px 17px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, .96);
+            color: #30283b;
+            font-size: 1rem;
+        }
+
+        input:focus {
+            box-shadow: 0 0 0 3px rgba(255, 255, 255, .28);
+        }
+
+        button {
+            border: 0;
+            padding: 15px 22px;
+            border-radius: 12px;
+            background: #f2a7c4;
+            color: #35264f;
+            font-size: 1rem;
+            font-weight: 800;
+            cursor: pointer;
+            transition: transform .2s ease, background .2s ease;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            background: #ffc1d8;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 24px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            color: #8b8494;
+            margin-top: 35px;
+            font-size: .9rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 25px 14px;
+            }
+
+            .quote-card {
+                padding: 20px;
+                border-radius: 18px;
+            }
+
+            .form-card {
+                padding: 24px 18px;
+            }
+
+            .quote-card img {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+
+        <header>
+            <span class="badge">MOTIVATION • STRENGTH • FAITH</span>
+            <h1>Motivational Life Quotes</h1>
+            <p class="intro">
+                A collection of reminders to keep going, believe in yourself,
+                stay grateful, and become stronger through every season of life.
+            </p>
+        </header>
+
+        <section class="quote-card">
+            <img src="m.jpg" alt="Motivational image">
+            <p>
+                Every time you choose to try again, even when you are exhausted,
+                even when your heart is heavy and your mind is telling you to quit,
+                you become stronger than the version of yourself that almost gave up.
+            </p>
+            <p>
+                Trying again doesn't mean you failed. It doesn't mean you weren't
+                broken, tired, or scared. It means you refused to let that moment
+                be your ending.
+            </p>
+        </section>
+
+        <section class="quote-card">
+            <img src="ma.jpg" alt="Motivational image">
+            <p>
+                Every time you get back up, wipe your tears, and take one more step,
+                you are building a strength that quitting could never give you.
+            </p>
+            <p>
+                You are proving to yourself that your will to keep going is louder
+                than your fear of falling.
+            </p>
+        </section>
+
+        <section class="quote-card">
+            <img src="mar.jpg" alt="Motivational image">
+            <p>
+                Everything is possible. Just believe in yourself, even when no one
+                else does. Believe in your strength when you feel weak, believe in
+                your heart when the world is heavy, and believe in your future when
+                the present is difficult.
+            </p>
+            <p>
+                Nothing is impossible for the person who refuses to doubt himself.
+                No dream is too big, no goal is too far, and no mountain is too high
+                when you have faith in who you are. 😍😍
+            </p>
+        </section>
+
+        <section class="quote-card">
+            <img src="mary.jpg" alt="Motivational image">
+            <p>
+                You are already living in the answer to a prayer you once cried for,
+                even as you wait for the next one to come. Never forget to be grateful.
+            </p>
+            <p class="highlight">
+                Speak the truth even when your voice shakes, serve others without
+                needing to be seen, and empower people without trying to control them.
+                That is what humble leadership truly means.
+            </p>
+        </section>
+
+        <section class="form-card">
+            <h2>Share Your Thoughts 💭</h2>
+            <p class="subtext">
+                Tell us how these words touched you or share what you're going through.
+            </p>
+
+            <form>
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your Gmail">
+                <input type="text" placeholder="Are you touched?">
+                <input type="text" placeholder="Enter your predicament">
+                <button type="submit">Send Message ✨</button>
+            </form>
+
+            <p class="contact">For more information, call 08165689866</p>
+        </section>
+
+        <footer>
+            Keep going. Your story is still being written. ❤️
+        </footer>
+
+    </main>
+</body>
+</html>
